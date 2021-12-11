@@ -91,7 +91,7 @@
         <div class="row">
           <div class="col-twelve">
             <div class="copyright">
-              <span>© Copyright Dazzle 2018.</span>
+              <span>© Copyright Swayam 2021.</span>
               <span
                 >Design by
                 <a href="https://www.linkedin.com/in/sundarkurs/"

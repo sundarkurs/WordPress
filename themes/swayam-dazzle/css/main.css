@@ -67,7 +67,7 @@ body {
 }
 
 body {
-  /* background: #141515; */
+  background: #021d2a;
   font-family: "muli-regular", sans-serif;
   font-size: 1.6rem;
   line-height: 1.875;
@@ -90,7 +90,7 @@ a:visited {
 
 a:hover,
 a:focus {
-  color: rgb(189, 165, 136);
+  color: rgb(188, 152, 107);
 }
 
 
@@ -339,7 +339,7 @@ ul.disc li::before {
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background: rgb(189, 165, 136);
+  background: rgb(188, 152, 107);
   position: absolute;
   left: -17px;
   top: 11px;
@@ -348,7 +348,7 @@ ul.disc li::before {
 
 dt {
   margin: 0;
-  color: rgb(189, 165, 136);
+  color: rgb(188, 152, 107);
 }
 
 dd {
@@ -519,7 +519,7 @@ td:last-child {
   right: 100%;
   height: 100%;
   width: 100%;
-  background: rgb(189, 165, 136);
+  background: rgb(188, 152, 107);
 }
 
 .pace.pace-inactive {
@@ -780,8 +780,8 @@ button.button-primary,
 input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
-  background-color: rgb(189, 165, 136);
-  border-color: rgb(189, 165, 136);
+  background-color: rgb(188, 152, 107);
+  border-color: rgb(188, 152, 107);
   color: #FFFFFF;
 }
 
@@ -795,8 +795,8 @@ button.button-primary:focus,
 input[type="submit"].button-primary:focus,
 input[type="reset"].button-primary:focus,
 input[type="button"].button-primary:focus {
-  background: rgb(188, 152, 107);
-  border-color: rgb(188, 152, 107);
+  background: #309a3f;
+  border-color: #309a3f;
 }
 
 button.full-width,
@@ -825,8 +825,8 @@ button.stroke,
 
 button.stroke:hover,
 .button.stroke:hover {
-  border: 0.3rem solid rgb(189, 165, 136);
-  color: rgb(189, 165, 136);
+  border: 0.3rem solid rgb(188, 152, 107);
+  color: rgb(188, 152, 107);
 }
 
 button.pill,
@@ -1052,7 +1052,7 @@ input::-moz-focus-inner {
 }
 
 .stats-tabs li a:hover {
-  color: rgb(189, 165, 136);
+  color: rgb(188, 152, 107);
 }
 
 .stats-tabs li a em {
@@ -1084,7 +1084,7 @@ h1.intro-header::before {
   content: "";
   height: 2px;
   width: 70px;
-  background-color: rgb(189, 165, 136);
+  background-color: rgb(188, 152, 107);
   position: absolute;
   left: 0;
   bottom: 0;
@@ -1125,16 +1125,14 @@ h1.intro-header::before {
 
 #header {
   width: 100%;
-  max-width: 100%;
-  height: 100px;
-  background-color: #032536;
-  position: absolute;
+  height: 72px;
+  background-color: #021d2a;
+  position: fixed;
   left: 50%;
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
   z-index: 501;
-  /* opacity: 0.7; */
 }
 
 
@@ -1143,7 +1141,6 @@ h1.intro-header::before {
  * ------------------------------------------------------------------- */
 
 .header-logo {
-  padding-left: 20rem;
   position: absolute;
   left: 40px;
   top: 50%;
@@ -1163,7 +1160,7 @@ h1.intro-header::before {
   border: none;
   width: 97px;
   height: 22px;
-  background: url("../images/logo.png") no-repeat center;
+  background: url("../images/logo2.png") no-repeat center;
   background-size: 97px 22px;
   font: 0/0 a;
   text-shadow: none;
@@ -1271,10 +1268,8 @@ h1.intro-header::before {
   font-family: "montserrat-medium", sans-serif;
   font-size: 14px;
   position: absolute;
-  right: 40px;
-  padding-right: 20rem;
   top: 0;
-  padding-top: 12px;;
+  right: 40px;
 }
 
 #header-nav-wrap .header-main-nav {
@@ -1333,10 +1328,6 @@ h1.intro-header::before {
 }
 
 @media only screen and (max-width: 768px) {
-  .header-logo {
-    padding-left: 0rem;
-  }
-
   .header-logo a {
     width: 88px;
     height: 20px;
@@ -1563,7 +1554,7 @@ h1.intro-header::before {
 .home-social-list li a:hover,
 .home-social-list li a:focus,
 .home-social-list li a:active {
-  color: rgb(189, 165, 136);
+  color: rgb(188, 152, 107);
 }
 
 
@@ -1588,7 +1579,7 @@ h1.intro-header::before {
 
 .home-scrolldown a:hover,
 .home-scrolldown a:focus {
-  color: rgb(189, 165, 136) !important;
+  color: rgb(188, 152, 107) !important;
 }
 
 html[data-useragent*='MSIE 10.0'] .home-scrolldown,
@@ -1616,7 +1607,6 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   position: relative;
   bottom: -6px;
 }
-
 
 
 /* vertical animation */
@@ -1868,7 +1858,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 }
 
 .about-features .feature .icon i {
-  color: rgb(189, 165, 136);
+  color: rgb(188, 152, 107);
   font-size: 4.8rem;
 }
 
@@ -1950,7 +1940,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   line-height: 54px;
   text-align: center;
   border-radius: 50%;
-  background-color: rgb(189, 165, 136);
+  background-color: rgb(188, 152, 107);
   box-shadow: 0 0 0 15px #ffffff;
   z-index: 500;
   position: absolute;
@@ -2159,12 +2149,12 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 }
 
 .pricing-table .plan-block .plan-block-features li span {
-  color: rgb(189, 165, 136);
+  color: rgb(188, 152, 107);
   font-family: "muli-bold", sans-serif;
 }
 
 .pricing-table .plan-block.primary {
-  background: rgb(189, 165, 136);
+  background: rgb(188, 152, 107);
   color: rgba(255, 255, 255, 0.8);
 }
 
@@ -2193,7 +2183,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 
 .pricing-table .plan-block.primary .button.button-primary:hover,
 .pricing-table .plan-block.primary .button.button-primary:focus {
-  color: rgb(189, 165, 136);
+  color: rgb(188, 152, 107);
 }
 
 .pricing-table .plan-bottom-part {
@@ -2431,7 +2421,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 
 #testimonial-slider .owl-dots .owl-dot.active span,
 #testimonial-slider .owl-dots .owl-dot:hover span {
-  background-color: rgb(189, 165, 136);
+  background-color: rgb(188, 152, 107);
 }
 
 
@@ -2487,8 +2477,8 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
  * ------------------------------------------------------------------- */
 
 #download {
-  background: rgb(189, 165, 136);
-  color: #b2fabc;
+  background: rgb(188, 152, 107);
+  color: #032536;
   padding-top: 12rem;
   padding-bottom: 12rem;
   text-align: center;
@@ -2499,7 +2489,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 }
 
 #download h1::before {
-  background-color: rgb(188, 152, 107);
+  background-color: #ffffff;
   left: 50%;
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
@@ -2507,7 +2497,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 }
 
 #download .lead {
-  color: #fff;
+  color: #ffffff;
   margin-top: 4.8rem;
 }
 
@@ -2574,12 +2564,11 @@ footer {
   font-size: 1.5rem;
   line-height: 2.7rem;
   color: rgba(255, 255, 255, 0.25);
-  background-color: #032536;
 }
 
 footer a,
 footer a:visited {
-  color: rgb(189, 165, 136);
+  color: rgb(188, 152, 107);
 }
 
 footer a:hover,
@@ -2685,8 +2674,8 @@ footer ul a:visited {
   top: 0;
   right: 0;
   color: #ffffff;
-  background: rgb(189, 165, 136);
-  border-color: rgb(189, 165, 136);
+  background: rgb(188, 152, 107);
+  border-color: rgb(188, 152, 107);
   border-radius: 0 .5rem .5rem 0;
   padding: 0 15px;
 }
@@ -2766,8 +2755,8 @@ footer ul a:visited {
   width: 60px;
   line-height: 60px;
   text-align: center;
-  background: rgb(189, 165, 136);
-  color: rgba(255, 255, 255, 0.5);
+  background: rgb(188, 152, 107);
+  color: #ffffff;
   text-align: center;
   text-transform: uppercase;
   border-radius: 5px;
@@ -2784,7 +2773,7 @@ footer ul a:visited {
 #go-top a:hover,
 #go-top a:focus {
   color: #FFFFFF;
-  background: rgb(188, 152, 107);
+  background-color: rgb(189, 165, 136);
 }
 
 
