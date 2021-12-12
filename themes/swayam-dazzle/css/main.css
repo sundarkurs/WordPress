@@ -67,7 +67,7 @@ body {
 }
 
 body {
-  background: #021d2a;
+  background: #ffffff;
   font-family: "muli-regular", sans-serif;
   font-size: 1.6rem;
   line-height: 1.875;
@@ -1160,7 +1160,7 @@ h1.intro-header::before {
   border: none;
   width: 97px;
   height: 22px;
-  background: url("../images/logo2.png") no-repeat center;
+  /* background: url("../images/logo.png") no-repeat center; */
   background-size: 97px 22px;
   font: 0/0 a;
   text-shadow: none;
@@ -1339,7 +1339,7 @@ h1.intro-header::before {
     width: 100%;
     right: auto;
     left: 0;
-    background-color: #111111;
+    background-color: #032536;
     padding: 120px 40px 54px;
   }
   #header-nav-wrap .header-main-nav {
@@ -2561,6 +2561,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 footer {
   padding-top: 9rem;
   padding-bottom: 4.2rem;
+  background-color: #032536;
   font-size: 1.5rem;
   line-height: 2.7rem;
   color: rgba(255, 255, 255, 0.25);
@@ -2617,7 +2618,7 @@ footer ul a:visited {
   border: none;
   width: 93px;
   height: 21px;
-  background: url("../images/logo.png") no-repeat center;
+  /* background: url("../images/logo.png") no-repeat center; */
   background-size: 93px 21px;
   font: 0/0 a;
   text-shadow: none;

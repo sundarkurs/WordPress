@@ -19,10 +19,11 @@
 
 	   	<nav id="header-nav-wrap">
 			<ul class="header-main-nav">
-				<li><a href="<?php echo site_url('/home') ?>" title="home">Home</a></li>
-        <li><a href="#pricing" title="pricing">Projects</a></li>
-        <li><a href="<?php echo site_url('/about-us') ?>" title="about">About</a></li>
-				<li><a href="<?php echo site_url('/contact') ?>" title="download">Contact</a></li>	
+				<li><a href="<?php echo site_url('/home') ?>" title="Home">Home</a></li>
+        <li><a href="<?php echo site_url('/projects') ?>" title="Projects">Projects</a></li>
+        <li><a href="<?php echo site_url('/faq') ?>" title="FAQ">FAQ</a></li>
+        <li><a href="<?php echo site_url('/about-us') ?>" title="About us">About us</a></li>
+				<li><a href="<?php echo site_url('/contact-us') ?>" title="Contact us">Contact us</a></li>	
 			</ul>
       <!-- <a href="#" title="sign-up" class="button button-primary cta">Sign Up</a> -->
 		</nav>
