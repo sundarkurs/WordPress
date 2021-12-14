@@ -280,56 +280,25 @@
 
         <div class="col-eight pricing-table">
           <div class="row">
-            <div class="col-six plan-wrap">
-              <div class="plan-block" data-aos="fade-up">
-                <div class="plan-top-part">
-                  <h3 class="plan-block-title">Swayam One</h3>
-                  <p class="plan-block-price"><sup>$</sup>25</p>
-                  <p class="plan-block-per">Per Month</p>
-                </div>
 
-                <div class="plan-bottom-part">
-                  <ul class="plan-block-features">
-                    <li><span>3GB</span> Storage</li>
-                    <li><span>10GB</span> Bandwidth</li>
-                    <li><span>5</span> Databases</li>
-                    <li><span>30</span> Email Accounts</li>
-                  </ul>
+            <?php 
+             
+              $featuredProjects = new WP_Query(array(
+                'posts_per_page' => 2,
+                'post_type' => 'project',
+              ));
 
-                  <a class="button button-primary large" href="">Read more</a>
-                </div>
-              </div>
-            </div>
-            <!-- end plan-wrap -->
+              while($featuredProjects->have_posts()) {
+                $featuredProjects->the_post();
+                get_template_part('template-parts/content', 'project');
+              }
+              
+            ?>
 
-            <div class="col-six plan-wrap">
-              <div class="plan-block primary" data-aos="fade-up">
-                <div class="plan-top-part">
-                  <h3 class="plan-block-title">Swayam Two</h3>
-                  <p class="plan-block-price"><sup>$</sup>50</p>
-                  <p class="plan-block-per">Per Month</p>
-                </div>
-
-                <div class="plan-bottom-part">
-                  <ul class="plan-block-features">
-                    <li><span>5GB</span> Storage</li>
-                    <li><span>20GB</span> Bandwidth</li>
-                    <li><span>15</span> Databases</li>
-                    <li><span>70</span> Email Accounts</li>
-                  </ul>
-
-                  <a class="button button-primary large" href="">Read more</a>
-                </div>
-              </div>
-            </div>
-            <!-- end plan-wrap -->
           </div>
         </div>
-        <!-- end pricing-table -->
       </div>
-      <!-- end pricing-content -->
     </section>
-    <!-- end pricing -->
 
     <!-- Testimonials Section
     ================================================== -->

@@ -7,7 +7,7 @@ pageBanner(array(
   ));
  ?>
 
-<section id="pricing">
+<section id="about">
 
   <div class="row about-intro">
     <div class="col-four">
@@ -24,28 +24,34 @@ pageBanner(array(
     </div>
   </div>
 
-  <div class="row pricing-table">  
-    <div class="plan-wrap">
-      <div class="plan-block" data-aos="fade-up">
-        <div class="plan-bottom-part">
+  <div class="row about-how">
+
+    <div class="about-how-content">
+      <div class="about-how-steps block-1-1 block-tab-full group">
 
         <?php
+          $projCount = 1;
           while(have_posts()) {
             the_post(); ?>
 
-          <div class="col-six tab-full">
-            <div class="plan-block primary" data-aos="fade-up">
-              <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-              <div>
-                <?php the_content(); ?>
-                <p><a href="<?php the_permalink(); ?>">More details &raquo;</a></p>
-              </div>
+          <div class="bgrid step" data-item="<?php echo $projCount ?>" data-aos="fade-up">
+            <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+            <div class="col-six">
+              <p> <?php the_content(); ?> </p>
+              <p><a href="<?php the_permalink(); ?>">More details &raquo;</a></p>
+            </div>
+            <div class="col-six">
+              <p><?php the_post_thumbnail('projectPortrait'); ?></p>
             </div>
           </div>
 
-        <?php } echo paginate_links(); ?>
-       
+        <?php 
+          $projCount = $projCount + 1;
+          } 
+          
+        ?>
       </div>
+      <div style="text-align:center"><?php echo paginate_links(); ?></div>
     </div>
   </div>
 
